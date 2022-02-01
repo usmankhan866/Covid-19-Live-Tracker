@@ -32,7 +32,7 @@ export const CovidData = () => {
   return( 
   
   <>
-       <p className='live_style'> <span >  🔴 </span> LIVE </p>  
+       <p className='live_style'> <span className='live_icon'>  🔴 </span> LIVE </p>  
        <h2 className='main_h2'>Covid-19 Data Tracker</h2>
        
 
@@ -43,7 +43,7 @@ export const CovidData = () => {
   <Card.Body>
     <Card.Title> <p> <span className='country_name'> Country </span></p>  </Card.Title>
     <Card.Text>
-      <h2 className='active'> INDIA </h2>
+      <h2 className='active'> PAKISTAN </h2>
     </Card.Text>
    
   </Card.Body>

@@ -5,11 +5,17 @@ body {
   background-color: rgb(45, 66, 131);
 }
 
+
 .live_style{
   color: whitesmoke;
   text-align: center;
   font-weight: 600;
   margin: 3% 0% 2% 0%;
+}
+
+.live_icon{
+
+  transition: transform 10s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .main_h2{
